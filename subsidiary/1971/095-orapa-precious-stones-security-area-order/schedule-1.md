@@ -1,0 +1,2 @@
+# SCHEDULE
+The area shown on diagram D.S.L. No. 10/70 approved by the Director of Surveys and Lands on 29th July, 1970, and filed in his office, which area is described as Certain Mining Lease Area No. 1-NO situate in the Central Administrative District and measuring 40960,0000 (forty thousand, nine hundred and sixty) acres equal to 64 (sixty-four) square miles or to 16575,8665 (sixteen thousand, five hundred and seventy-five point eight six six five) hectares.
