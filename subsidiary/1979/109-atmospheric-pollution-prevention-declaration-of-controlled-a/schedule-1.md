@@ -1,0 +1,4 @@
+# SCHEDULE
+1. The mining area at Morupule, the boundaries of which are delineated on diagram D.S.L. No. 267/74 deposited with the Director of Surveys and Lands, Gaborone.
+2. The mining area at Letlhakane, the boundaries of which are delineated on diagram D.S.L. No. 136/75 deposited with the Director of Surveys and Lands, Gaborone.
+3. Jwaneng Township (as declared by the Cap. 40:02 (Sub. leg.) Declaration of Jwaneng Township Notice) together with the area specified in the Schedule to the Cap. 66:03 (Sub. leg.) Jwaneng Precious Stones Security Area Order, and the area specified in Part 1 of the Schedule to the Cap. 66:03 (Sub. leg.) Jwaneng Precious Stone Protection Areas Order, the boundaries of which aggregate area are delineated on diagram D.S.L. No. 86/79 deposited with the Director of Surveys and Lands, Gaborone.
