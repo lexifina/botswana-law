@@ -1,0 +1,3 @@
+# SCHEDULE
+(para. 2)
+Commencing at a point A, the co-ordinates of which are Y+30 422,66 X+2 719 869,30, the boundary runs in a north-westerly direction to a point B, the co-ordinates of which are Y+36 551,45 X+2 714 726,83; thence in a straight line in a north-easterly direction to a point C, the co-ordinates of which are Y+30 123,22 X+2 707 065,93; thence in a straight line in a south-easterly direction to a point D, the co-ordinates of which are Y+23 994,65 X+2 712 208,47; thence in a south-westerly direction to the point of commencement, as will more fully appear from Plan No. KN-3 deposited with the Director of Surveys and Lands, Gaborone; the co-ordinates of points A, B, C and D are expressed in metres on Trigonometrical System Lo 25°.
