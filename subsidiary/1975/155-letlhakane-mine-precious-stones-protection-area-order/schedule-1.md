@@ -1,0 +1,2 @@
+# SCHEDULE
+The whole of the area lying within a quadrilateral of sides each seven kilometres in length which sides are parallel to and one kilometre outside the boundaries of Mining Lease Area No. 2-NO situate in the Central District, and which Mining Lease is shown on Diagram DSL No. 136/75 filed in the Department of Surveys and Lands, but excluding the precious stones security area declared in the Letlhakane Mine Precious Stones Security Area Order.
