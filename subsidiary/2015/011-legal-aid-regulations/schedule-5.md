@@ -1,0 +1,26 @@
+# SCHEDULE 5 APPLICATION TO UNDERTAKE LEGAL AID INSTRUCTIONS
+(regulation 18(1))
+1. I (Name of Legal Practitioner):.................................................................................................................................................... do hereby in terms of the provisions of these Regulations make an application to undertake legal aid instructions on behalf of Legal Aid Botswana.
+2. Please provide the name of the law firm that the Legal Practitioner works for:
+...............................................................................................................................................
+3. Contact details of the Legal Practitioner:
+Physical address of Legal Practitioner's place of business:
+...............................................................................................................................................
+...............................................................................................................................................
+Postal address of Legal Practitioner's place of business:
+...............................................................................................................................................
+...............................................................................................................................................
+Telephone No: ................................Email: .......................................Fax No: ............................
+4. Please tick the type of matters you are willing to undertake:
+Family Law
+Delictual damages
+Land
+Wills & estates
+Industrial/Labour
+Criminal
+Contractual disputes
+Other
+............................. ......................................... .....................................
+SIGNATURE NAME IN PRINT DATE
+....................................................................................
+NAME OF FIRM
