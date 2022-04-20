@@ -1,0 +1,31 @@
+# SCHEDULE 1
+(Sections 4 and 5(2)(a))
+First Column
+Second Column
+Bamangwato Tribal Territory
+Ngwato Land Board
+Batawana Tribal Territory
+Tawana Land Board
+Bakgatla Tribal Territory
+Kgatleng Land Board
+Bakwena Tribal Territory
+Kweneng Land Board
+Bangwaketse Tribal Territory
+Ngwaketse Land Board
+Bamalete Tribal Territory
+Malete Land Board
+Batlokwa Tribal Territory
+Tlokweng Land Board
+Barolong Farms
+Rolong Land Board
+The area defined in Schedule 2 to this Act
+Tati Land Board
+The area defined in Schedule 3 to this Act
+Chobe Land Board
+The area defined in Schedule 4 to this Act
+Kgalagadi Land Board
+The area defined in Schedule 5 to this Act
+Ghanzi Land Board
+SCHEDULE 2 TATI TRIBAL AREA Commencing at beacon BB1 on the International Boundary between Botswana and Zimbabwe, being also an intersection point of the Bamangwato Tribal Territory and the Northeast District boundary lines, the boundary runs generally eastwards to its intersection with the median line of the Ramokgwebana River; thence generally southwards along the said International Boundary, being also the median line of the said Ramokgwebana River, to its confluence with the Shashe River; thence generally westwards and northwestwards along the median line of the said Shashe River to its intersection with the western boundary of the Remainder of Farm 80-NQ; thence generally northwards and eastwards along the boundary of the said Farm 80-NQ; thence northwards along the western boundary of the Farm 35-NQ/117; thence eastwards along the northern boundary of the said Farm 35-NQ/117 to its intersection with the eastern boundary of the Railway Strip 9-OQ; thence southwards along the boundary of the said Railway Strip 9-OQ to its intersection with the northern boundary of the Remainder of the Farm 77NQ; thence eastwards and southeastwards respectively along the northern and eastern boundaries of the said Remainder of the Farm 77-NQ; thence generally southeastwards and eastwards along the boundaries of Farms 77-NQ/3, 77-NQ/5, 77-NQ/7, 77-NQ/10, 77-NQ/11 and 77-NQ/13 to its intersection with the median line of the Tati River; thence southwards along the median line of the Tati River to its intersection with the northern boundary of Farm 77-NQ/25; thence northeastwards along the boundary of the said Farm 77-NQ/25, northwestwards and northeastwards along boundaries of Farm 77-NQ/39; thence northwards along western boundaries of Farms 77-NQ/22, 77-NQ/20, 74-NQ, 52-NQ and 51-NQ; thence westwards, along the southern boundary of the Farm 49-NQ to its intersection with the median line of the Sekukwe River; thence generally northwards along the median line of the said Sekukwe River and the eastern boundary of Remainder of the Farm 32-NQ to its intersection with the southern boundary of the Farm 29-NQ; thence eastwards, northwestwards and westwards along the southern, eastern and northern boundaries of Farm 29-NQ to the intersection of the latter with the eastern boundary of the Railway Strip 9-OQ; thence generally northwards along the said Railway Strip 9-OQ to its intersection with the prolongation of the southern boundary of Farm 58-OQ; thence in a clockwise direction along the boundaries of the said Farm 58-OQ, Farm 57-OQ, Farm 51-OQ, Farm 47-OQ and Farm 40-OQ to the intersection of the prolongation of the northern boundary of the said Farm 40-OQ with the Eastern boundary of the Railway Strip 9-OQ; thence generally northwards along the said Railway Strip 9-OQ to its intersection with the prolongation of the southern boundary of the Farm 14-OQ; thence northwestwards along the said southern boundary of the Farm 14-OQ to its intersection with the median line of Ntshe River; thence southwards along the median line of said Ntshe River, to its intersection with the northern and common boundary of the Farms 27-OQ and 22-OQ; thence southwestwards along the said common boundary of the Farms 27-OQ and 22-OQ, to its intersection with the median line of Tati River; thence southwards along the said median line of Tati river, to its intersection with the southern boundary of Farm 2-OQ; thence westwards along the said Farm boundary and northwards along the western Boundaries of the Farms 2-OQ and 116-OQ, being also the eastern boundary of Farm 1-OQ; thence anti-clockwise along the eastern, northern, western and southern boundaries of the said Farm 1-OQ to its intersection with the median line of Vukwe River; thence southwards along the said median line of Yukwe River to its intersection with the common boundary between the said Farm 1-OQ and Farm 44-OQ; thence eastwards along the said common boundary of the said Farms 1-OQ and 44-OQ; thence generally southwards along the eastern boundaries of Farms 44-OQ, 54-OQ, 55-OQ, 64-OQ and 65-OQ; thence eastwards along the northern boundary of Farm 70-OQ to its intersection with the median line of Tati River; thence southwards along the median line of the said Tati River to its intersection with the northern boundary of the Farm 88-OQ; thence clockwise along the northern, eastern and southern boundaries of the said Farm 88-OQ to its intersection with the median line of Tati River; thence southwards along the median line of the said Tati River to its intersection with the southern boundary of the Farm 97-OQ; thence westwards and northwards along the southern and western boundaries of the said Farm 97-OQ; thence westwards along the southern boundary of the Farm 95-OQ to its intersection with the median line of Vukwe River; thence southwards along the median line of the said Vukwe River to its confluence with Shashe River; thence northwestwards and northwards along the median line of the said Shashe River, being also the southern and eastern boundary of the Bamangwato Tribal Territory; thence westwards and northwards along the said boundary of the Bamangwato Tribal Territory to the point of commencement at boundary beacon BB1.
+Excluded from this area are-
+The Railway Strip 9-OQ, the Remainder of Tati Concessions, the Farms 6-NQ, 31-NQ, 4-OQ, 6-OQ, 7-OQ, 11-OQ, 16-OQ, 17-OQ, 19-OQ, 39-OQ and 85-OQ, portions 3, 4, 5, 16, 29, 30 and 31 and remainder of the Farm 77NQ: As will more fully appear on Plan BP 181 deposited with the Director of Surveys and Mapping.
