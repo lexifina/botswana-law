@@ -1,0 +1,10 @@
+# Precious and Semi-precious Stones (Protection) (Okavango Diamond Company Precious Stones Security Area Declaration) Order (No. 1)
+
+Botswana e-Laws (Attorney General's Chambers): https://elaws.gov.bw/subsidiary-legislation/precious-and-semi-precious-stones-protection-subsidiary-legislation/
+
+Amendment list on the page: S.I. 66, 2026.
+
+| File | Section |
+| --- | --- |
+| [s-001](s-001.md) | 1. Citation |
+| [s-002](s-002.md) | 2. Declaration of Okavango Diamond Company Precious Stones Security Area |
