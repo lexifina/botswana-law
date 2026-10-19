@@ -1,0 +1,19 @@
+# Gaborone City Council (Local Beer) Regulations
+
+Botswana e-Laws (Attorney General's Chambers): https://elaws.gov.bw/subsidiary-legislation/local-government-subsidiary-legislation/
+
+Amendment list on the page: G.N. 92, 1963, G.N. 125, 1963, L.N. 84, 1966.
+
+| File | Section |
+| --- | --- |
+| [s-001](s-001.md) | 1. Citation |
+| [s-002](s-002.md) | 2. Interpretation |
+| [s-003](s-003.md) | 3. Manufacture or possession of local beer |
+| [s-004](s-004.md) | 4. Permit to manufacture, etc. |
+| [s-005](s-005.md) | 5. Penalties |
+| [s-006](s-006.md) | 6. Permitted quantities |
+| [s-007](s-007.md) | 7. Fee |
+| [s-008](s-008.md) | 8. Form of permit |
+| [s-009](s-009.md) | 9. Permit not transferable |
+| [s-010](s-010.md) | 10. Revenues |
+| [schedule-1](schedule-1.md) | SCHEDULE PERMIT TO MANUFACTURE OR BE IN POSSESSION OF LOCAL BEER |
