@@ -1,0 +1,10 @@
+# SCHEDULE
+Bat-eared Fox (Motlose)
+Cheetah (Lengau)
+Eland (Phofu)
+Gemsbok (Kukama)
+Giraffe (Thutlwa)
+Kudu (Tholo)
+Leopard (Nkwe)
+Lion (Tau)
+Springbok (Tshephe)
