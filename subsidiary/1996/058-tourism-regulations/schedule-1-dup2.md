@@ -1,0 +1,5 @@
+# SCHEDULE V
+PART I FEES
+(regs. 7(2), 8(2) and 9(2))
+PART II ANNUAL LICENCE FEES
+(reg. 12(1))
