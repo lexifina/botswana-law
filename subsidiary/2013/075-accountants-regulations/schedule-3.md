@@ -1,0 +1,50 @@
+# SCHEDULE 3
+Form 1 ACCOUNTING TECHNICIAN MEMBERSHIP CERTIFICATE
+(reg. 14(a))
+Form 2 CERTIFICATE OF ASSOCIATESHIP - ASSOCIATE CHARTERED ACCOUNTANT (reg. 14(b))
+Form 3 CERTIFICATE OF FELLOWSHIP - FELLOW CHARTERED ACCOUNTANT (reg. 14(c))
+Form 4 CERTIFICATE OF ASSOCIATESHIP - ASSOCIATE CERTIFIED PROFESSIONAL ACCOUNTANT OR CHARTERED ACCOUNTANT (reg. 14(d))
+Form 5 CERTIFICATE OF FELLOWSHIP - FELLOW CERTIFIED PROFESSIONAL ACCOUNTANT OR CHARTERED ACCOUNTANT (reg. 14(e))
+Form 6 ... Form 7 CERTIFICATE OF MEMBERSHIP - MEMBER FIRM - NON-AUDIT (reg. 14(g))
+Form 8 ... SCHEDULE 4 FEES APPLICATION FEES FOR CLASSES OF MEMBERSHIP
+(regs. 4(2) and 7(2))
+CLASS OF MEMBERSHIP
+APPLICATION FEE
+Accounting Technician Associate
+P116.07
+Chartered Accountant
+P227.68
+Associate Certified Professional Accountant or Chartered Accountant
+P227.68
+Fellow Chartered Accountant
+P227.68
+Fellow Certified Professional Accountant or Chartered Accountant
+P227.68
+ANNUAL SUBSCRIPTIONS
+(reg. 8(1))
+CLASS OF MEMBERSHIP
+ANNUAL SUBSCRIPTION FEE
+Accounting Technician Associate
+P1276.79
+Chartered Accountant
+P2387.50
+Associate Certified Professional Accountant or Chartered Accountant
+P2387.50
+Fellow Chartered Accountant
+P2387.50
+Fellow Certified Professional Accountant or Chartered Accountant
+P2387.50
+Member Firm
+P2 500
+Certified Auditor
+P11 200
+FEES FOR THE ISSUE OF CERTIFICATE
+(reg. 16)
+FEE FOR CERTIFICATE OF REGISTRATION
+Member Firm
+P3860.72
+SCHEDULE 5 Form 1
+Form 2
+Form 3
+Form 4 APPLICATION TO REGISTER AS AN INDEPENDENT STUDENT
+(reg. 23(1))
