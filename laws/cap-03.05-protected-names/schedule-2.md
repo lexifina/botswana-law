@@ -1,0 +1,2 @@
+# SECOND SCHEDULE PROTECTED NAMES
+Botswana National Front
