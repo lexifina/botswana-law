@@ -1,0 +1,11 @@
+{
+ "parts": {
+  "20-penal-code.json": {
+   "acts": [
+    "penal-code"
+   ],
+   "sha256": "3f784a3df59540e52d81d31cf8f39afc23ba0e218be244c4a32af77d760e8d69"
+  }
+ },
+ "schema": 1
+}
