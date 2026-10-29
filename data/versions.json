@@ -1,0 +1,39 @@
+{
+ "country": "BW",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "Constitution of Botswana",
+   "url": "https://e-laws.botswanalaws.com/constitution-of-botswana/constitution-of-botswana/",
+   "versions": [
+    {
+     "from": "2019-05-26",
+     "units": 122,
+     "source_url": "https://web.archive.org/web/20190526221248id_/http://www.botswanalaws.com:80/principal-legislation/constitution-of-botswana",
+     "sha256": "bdab614f449495c45d86523d1790f4bfd0e11abf1ea3238a9fd5460201588e71"
+    },
+    {
+     "from": "2021-02-05",
+     "units": 122,
+     "source_url": "https://e-laws.botswanalaws.com/constitution-of-botswana/constitution-of-botswana/",
+     "sha256": "f2fa10acb067285f3b5a11e1776267fcf491f45d686a5d7ced0e754e24b07ace"
+    }
+   ]
+  },
+  {
+   "slug": "penal-code",
+   "short": "Penal Code",
+   "title": "Penal Code (Cap. 08:01)",
+   "url": "https://e-laws.botswanalaws.com/principal-legislation/penal-code/",
+   "versions": [
+    {
+     "from": "2024-12-04",
+     "units": 405,
+     "source_url": "https://web.archive.org/web/20241204224821id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+     "sha256": "929d646ec32194131584c8901a07a312c263164c1d4ebc614b1bb1c5b092798c"
+    }
+   ]
+  }
+ ]
+}
