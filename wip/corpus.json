@@ -1,0 +1,76 @@
+{
+ "country": {
+  "code": "BW",
+  "name": "Botswana",
+  "slug": "botswana",
+  "lang": "en",
+  "tz": "Africa/Gaborone",
+  "future_branch": "future",
+  "publisher": {
+   "name": "Botswana e-Laws (Attorney General's Chambers, published by Blackhall Publishing)",
+   "email": "publisher@botswanalaws.invalid"
+  },
+  "default_in_force_rule": {
+   "text": "Interpretation Act (Cap. 01:04): an enactment comes into operation on the date of its publication in the Gazette unless it provides otherwise; amending Acts here name their own commencement (\"Date of Commencement\" in the e-Laws bulletin), which is used as given.",
+   "source": "https://e-laws.botswanalaws.com/principal-legislation/interpretation/"
+  },
+  "licence_note": "Botswana e-Laws: \"Copyright (c) 2026. All right reserved. Government of Botswana.\" Text read from the publisher's open Constitution page and from Internet Archive captures of its earlier site (botswanalaws.com). Whether Botswana excludes legislative texts from copyright is not verified; this repository is private."
+ },
+ "sources": [
+  {
+   "name": "Botswana e-Laws: Constitution of Botswana (open page)",
+   "url": "https://e-laws.botswanalaws.com/constitution-of-botswana/constitution-of-botswana/",
+   "retrieved": "2026-10-28",
+   "requests": 1,
+   "sha256": "f2fa10acb067285f3b5a11e1776267fcf491f45d686a5d7ced0e754e24b07ace",
+   "licence": "All rights reserved, Government of Botswana (site footer)",
+   "notes": "Consolidated to S.I. 93 of 2024, with per-provision amendment notes. Used for s 68 as amended by Act 1 of 2021 and to check which provisions later Acts touched. Every other consolidated act on e-Laws is members-only and was not read."
+  },
+  {
+   "name": "botswanalaws.com (same publisher's previous site), Internet Archive capture 2019-05-26",
+   "url": "https://web.archive.org/web/20190526221248id_/http://www.botswanalaws.com:80/principal-legislation/constitution-of-botswana",
+   "retrieved": "2026-10-28",
+   "requests": 1,
+   "sha256": "bdab614f449495c45d86523d1790f4bfd0e11abf1ea3238a9fd5460201588e71",
+   "licence": "All rights reserved, Government of Botswana; read through the Internet Archive",
+   "notes": "Full consolidated Constitution to S.I. 57 of 2018 (the members-only tag leaked in this capture)."
+  },
+  {
+   "name": "botswanalaws.com, Internet Archive capture 2024-12-04",
+   "url": "https://web.archive.org/web/20241204224821id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+   "retrieved": "2026-10-28",
+   "requests": 1,
+   "sha256": "929d646ec32194131584c8901a07a312c263164c1d4ebc614b1bb1c5b092798c",
+   "licence": "All rights reserved, Government of Botswana; read through the Internet Archive",
+   "notes": "Full consolidated Penal Code (Cap. 08:01) to S.I. 93 of 2023."
+  },
+  {
+   "name": "botswanalaws.com, Internet Archive capture 2026-03-23 (Penal Code page, members-only)",
+   "url": "https://web.archive.org/web/20260323141454id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+   "retrieved": "2026-10-28",
+   "requests": 1,
+   "sha256": "368adefa9981bfd616bfc0bc4713b84f748b9a41213d1d3ce8a4e0ad78af7ddd",
+   "licence": "All rights reserved, Government of Botswana; read through the Internet Archive",
+   "notes": "No text, but the amendment list, which is the same as on 2024-12-04 (last entry S.I. 93, 2023)."
+  },
+  {
+   "name": "Botswana e-Laws bulletin (WordPress API excerpts)",
+   "url": "https://e-laws.botswanalaws.com/wp-json/wp/v2/",
+   "retrieved": "2026-10-29",
+   "requests": 14,
+   "licence": "All rights reserved, Government of Botswana",
+   "notes": "Open excerpts: Act 1 of 2021 \"Date of Commencement: 5th February, 2021. Amends: s 68.\"; Act 29 of 2022 \"Date of Commencement: On Notice. Amends: s 58\"; the S.I. 93 of 2024 page itself is members-only. A search for \"penal code\" lists no Penal Code amendment after S.I. 93 of 2023."
+  }
+ ],
+ "laws": {},
+ "acts": [],
+ "applies": [],
+ "decisions": [
+  "Botswana e-Laws (e-laws.botswanalaws.com) is the official consolidation; only its Constitution page is open. Every other act is members-only and was never read or worked around; earlier full texts come only from Internet Archive captures of the publisher's previous site (botswanalaws.com) in which the members-only tag leaked.",
+  "Text normalisation: hidden <input> notes, tags and footnote markers dropped; NBSP to space; curly quotes to straight; en and em dashes to \"-\"; runs of spaces collapsed. e-Laws amendment notes (\"[1 of 2021, s. 2(a).]\") are not text: they are read for credits only. The closing e-Laws editorial note on Act 9 of 2005's word substitutions is not part of any unit.",
+  "Units: one file per section (s-NNN, s-051-a, s-020-to-029 for the repealed range) and per schedule (schedule-N). Chapter and part headings are not units."
+ ],
+ "ai_use": [
+  "Claude Code with Claude Opus 5.5 (claude-opus-5-5) wrote fetch.py and parse.py and chose the sources. No model wrote or altered legal text, and no model runs at build time."
+ ]
+}

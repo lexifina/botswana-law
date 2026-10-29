@@ -1,0 +1,14 @@
+{
+ "note": "Every URL parse.py reads; `python -X utf8 fetch.py --all` fetches whatever is not cached yet.",
+ "urls": [
+  "https://web.archive.org/web/20190526221248id_/http://www.botswanalaws.com:80/principal-legislation/constitution-of-botswana",
+  "https://e-laws.botswanalaws.com/constitution-of-botswana/constitution-of-botswana/",
+  "https://web.archive.org/web/20241204224821id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+  "https://web.archive.org/web/20260323141454id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+  "https://e-laws.botswanalaws.com/wp-json/wp/v2/posts/1892?_fields=id,date,title,excerpt,content,link",
+  "https://e-laws.botswanalaws.com/wp-json/wp/v2/posts/1090?_fields=id,date,title,excerpt,content,link",
+  "https://e-laws.botswanalaws.com/wp-json/wp/v2/posts/2755?_fields=id,date,title,excerpt,content,link",
+  "https://e-laws.botswanalaws.com/wp-json/wp/v2/search?search=penal%20code&per_page=100",
+  "https://e-laws.botswanalaws.com/wp-json/wp/v2/search?search=constitution%20amendment&per_page=100"
+ ]
+}
