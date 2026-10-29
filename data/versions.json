@@ -1,0 +1,19 @@
+{
+ "country": "BW",
+ "acts": [
+  {
+   "slug": "penal-code",
+   "short": "Penal Code",
+   "title": "Penal Code (Cap. 08:01)",
+   "url": "https://e-laws.botswanalaws.com/principal-legislation/penal-code/",
+   "versions": [
+    {
+     "from": "2024-12-04",
+     "units": 405,
+     "source_url": "https://web.archive.org/web/20241204224821id_/https://botswanalaws.com/consolidated-statutes/principle-legislation/penal-code",
+     "sha256": "929d646ec32194131584c8901a07a312c263164c1d4ebc614b1bb1c5b092798c"
+    }
+   ]
+  }
+ ]
+}
