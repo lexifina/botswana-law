@@ -1,5 +1,7 @@
 # Botswana: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Botswana's national law, which global-law reads at `botswana/national/acts/`.
+
 The law of Botswana as a git history: one file per section, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a section; `tools/on.py` gives the text in force on any day.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `bw/`. The text is the official consolidation published for the Attorney General's Chambers by Blackhall Publishing as [Botswana e-Laws](https://e-laws.botswanalaws.com), read from its one open page and from archived copies of the same publisher's earlier site.
