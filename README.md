@@ -1,86 +1,89 @@
 # Botswana: law history in git
 
+
+The law of Botswana as a git history: one file per section, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a section; picking a date gives the text in force that day.
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Botswana's national law, which global-law reads at `botswana/national/acts/`.
 
-The law of Botswana as a git history: one file per section, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a section; `tools/on.py` gives the text in force on any day.
+**What is in it now:** the Penal Code (Cap. 08:01), in one version with 405 sections, as the publisher consolidated it to S.I. 93 of 2023: today's text, in force on 4 December 2024. The Constitution of Botswana, in 2 versions (2019 and 2021), is on the `preview` branch, not on `main` (see below). [`penal-code/README.md`](penal-code/README.md) lists every section of the Penal Code; [`data/versions.json`](data/versions.json) lists every version with its source.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `bw/`. The text is the official consolidation published for the Attorney General's Chambers by Blackhall Publishing as [Botswana e-Laws](https://e-laws.botswanalaws.com), read from its one open page and from archived copies of the same publisher's earlier site.
+Each act has its own folder, one file per section: `penal-code/s-202.md` is section 202 of the Penal Code, murder.
 
-**What is in it**
+The text is in English, the language Botswana's laws are published in, as Botswana e-Laws prints it.
 
-| Folder | Act | Versions | History | On `main` |
-| --- | --- | ---: | --- | --- |
-| `penal-code/` | Penal Code (Cap. 08:01) | 1 | 2024-12-04 | yes: today's text |
-| `constitution/` | Constitution of Botswana | 2 | 2019-05-26 to 2021-02-05 | no: held on the `preview` branch (see below) |
-
-- **Penal Code.** One version: the consolidated text to S.I. 93 of 2023, as the publisher's site showed it on 4 December 2024. The same page's amendment list on 23 March 2026 is unchanged, and the e-Laws bulletin lists no later amendment, so it is today's text. Its history before 2024 is not open anywhere, so the first commit is the "oldest version available".
-- **Constitution.** The text to S.I. 57 of 2018 (captured 26 May 2019), then Act 1 of 2021 (section 68, in force 5 February 2021). Act 29 of 2022 changed section 58 (57 to 61 Elected Members), commenced by S.I. 93 of 2024, but no open source gives the day it took effect: e-Laws says "Date of Commencement: On Notice" and the S.I. itself is members-only. That change is left out rather than guessed, so the Constitution here is not today's text and is not on `main`.
-
-Each folder's `README.md` lists every section, how often it changed and when.
-
-## A lawyer's questions as git commands
+## Questions as git commands
 
 | Question | Command |
 | --- | --- |
-| What did s 3 say on 2025-01-01? | `python tools/on.py 2025-01-01 penal-code s-003` |
-| The same, with raw git (bash) | `git show $(git rev-list -1 --before="2025-01-01T23:59:59Z" main -- penal-code/s-003.md):penal-code/s-003.md` |
-| The same, in PowerShell | `$r = git rev-list -1 --before="2025-01-01T23:59:59Z" main -- penal-code/s-003.md; git show "$($r):penal-code/s-003.md"` |
-| Which law wrote each line? | `git blame constitution/s-068.md` |
-| Every change, word by word | `git log -p --word-diff constitution/s-068.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
-| Everything one law changed | `git show law/<key>` (tags `law/<key>` mark each law's commit) |
-| The whole act on a date | `python tools/on.py 2025-01-01 penal-code` |
+| Every change to section 202 of the Penal Code | `git log -p --word-diff -- penal-code/s-202.md` |
+| Which law wrote each line of section 202? | `git blame penal-code/s-202.md` |
+| Every version of the Penal Code, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- penal-code ':!*/README.md'` |
+| Section 202 as in force on 1 January 2025 | `python tools/on.py 2025-01-01 penal-code s-202` |
 
-After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch keeps stale tags.
+On `preview`, `git log -p --word-diff origin/preview -- constitution/s-068.md` shows what Act 1 of 2021 changed in section 68 of the Constitution.
+
+**Outside git**, we also host this record publicly, for free:
+
+- **[Ask Claude about Botswana law](https://global-law.lexifina.com/v1/try_claude?country=botswana)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=botswana)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=murder&jurisdictions=botswana)**: a search of Botswana law for "murder", returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in English.
+
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add botswana/national/acts
+python3 tools/law.py show 2026-01-01 botswana/national/acts/penal-code/s-202.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-- Each commit is dated at **noon, Africa/Gaborone, on the day the change took effect**. The day is also in the `In-force:` trailer, which the tools read.
-- **Amending Acts** are dated by the "Date of Commencement" the e-Laws bulletin gives for them (Act 1 of 2021: 5 February 2021).
-- **The oldest version of each act** is a consolidation whose own as-at date the publisher does not state. It is dated by the day the Internet Archive captured it: the text was in force on that day at the latest.
-- `--before="YYYY-MM-DD"` alone uses your clock's time of day, so a law that took effect that day may be missed before noon. Use `T23:59:59Z` as above, or the tool.
+Each commit is dated at noon, Africa/Gaborone, on the day the version took effect, and carries it in its `In-force:` trailer:
+
+- for an amending law, the "Date of Commencement" the e-Laws bulletin gives for it (Act 1 of 2021: 5 February 2021); a law that gives no day comes into operation on its publication in the Gazette (Interpretation Act, Cap. 01:04);
+- for the oldest version of an act, a consolidation whose own as-at date the publisher does not state, the day the Internet Archive captured it, when it was in force at the latest: 4 December 2024 for the Penal Code (no open source gives the day S.I. 93 of 2023 took effect), 26 May 2019 for the Constitution.
+
+The oldest version of each act is credited to the publisher, `Botswana e-Laws (Attorney General's Chambers, published by Blackhall Publishing)`, and its commit message lists the amendments it already holds. A later change is credited to the law the publisher's own amendment notes name ("[1 of 2021, s. 2(a).]"); a change they do not explain is the publisher's, labelled "unexplained".
 
 ## How it is checked
 
-- Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`); both must match `corpus.json`. Results are in `REPRODUCE.md`.
-- **Today's text:** the Penal Code's amendment list on the publisher's page is the same on 2024-12-04 and 2026-03-23, and the e-Laws bulletin (searched 2026-10-29) lists no later Penal Code amendment.
-- **Credits:** each section credited to Act 1 of 2021 is one whose e-Laws amendment note names that Act ("[1 of 2021, s. 2(a).]"), matching the bulletin's "Amends: s 68".
-- The repository is rebuilt from the same data a second time and must give identical hashes.
-
-## What "author" means
-
-The author of a commit is the law that made the change, with an e-mail address that cannot exist, so `git blame` and `git log --author` name laws. The committer is always Lexifina.
-
-- **Credits come only from the publisher's own amendment notes and bulletin.** Anything they do not explain is committed by the publisher and labelled "unexplained".
-- **The first commit** of each act is the oldest version available (a consolidation), credited to the publisher.
-- Blame credits whole lines (one paragraph per line). Use `git log -p --word-diff` to see exactly which words each change made.
+- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and compares it with the corpus: 0 mismatches, and no commit whose trailers git cannot parse (see [`REPRODUCE.md`](REPRODUCE.md)).
+- **Today's text:** the Penal Code's amendment list on the publisher's page is the same on 4 December 2024 and 23 March 2026, and the e-Laws bulletin (searched 29 October 2026) lists no later amendment to it.
+- **Credits:** each section credited to a law carries an amendment note naming that law, matching the sections the bulletin says it amends (Act 1 of 2021: "Amends: s 68").
+- History is append-only: no merge commits, no commit dates that go backwards, and none after the build.
 
 ## What it does not show
 
-- **Earlier history.** Every change before the oldest version is folded into it. The amendment list printed in that version's commit message names them (for the Constitution: L.N. 83 of 1966 to S.I. 57 of 2018; for the Penal Code: Law 2 of 1964 to S.I. 93 of 2023).
-- **Act 29 of 2022** (Constitution, s 58): no open source gives its in-force day, so it is not in the history.
-- **The publisher's later editorial changes.** Today's e-Laws Constitution differs from the 2019 text in spelling ("authorise" for "authorize"), hyphenation and cross-reference style in about 30 sections. No note explains when; they are not built.
-- **Editorial notes** (amendment notes, the closing editorial note on Act 9 of 2005's word substitutions) are not text: they are read for credits only. Chapter and Part headings are left out; each file starts with its own number and heading.
-- **Other acts.** Every other consolidated act on e-Laws is members-only. It was not read, and nothing here works round that.
-
-## How it is built
-
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
+- **The Constitution on `main`.** Act 29 of 2022 changed section 58 (57 to 61 Elected Members) and was commenced by S.I. 93 of 2024, but no open source gives the day: e-Laws says "Date of Commencement: On Notice" and the S.I. is members-only. Rather than guess, the Constitution stays on `preview`, as amended to 2021.
+- **Earlier history.** Every change before an act's oldest version is folded into it; its commit message names them (for the Penal Code, Law 2 of 1964 to S.I. 93 of 2023).
+- **Other law.** Every other consolidated act on e-Laws is members-only and was not read; there is no subsidiary legislation, case law or bill here.
+- **Editorial matter.** Amendment and editorial notes are read for credits only, and Part and Chapter headings are left out; each file starts with its section's number and heading.
+- **Changes within a line.** Each paragraph is one line, so blame credits a whole paragraph to the law that changed one word of it.
 
 ## Sources
 
-| Source | What it gives | Used for |
-| --- | --- | --- |
-| [Botswana e-Laws](https://e-laws.botswanalaws.com) (Attorney General's Chambers; Blackhall Publishing) | The consolidated Constitution to S.I. 93 of 2024, with amendment notes; bulletin excerpts with commencement dates. Every other act is members-only | Section 68 as amended in 2021; credits; dates |
-| [botswanalaws.com](https://botswanalaws.com) (the same publisher's earlier site), through the [Internet Archive](https://web.archive.org/) | Full consolidated texts in captures where the members-only tag leaked: the Constitution (2019-05-26), the Penal Code (2024-12-04) | The oldest version of each act |
-| [elaws.gov.bw](https://www.elaws.gov.bw) (the Attorney General's earlier e-Laws) | Does not connect; archived captures hold the Constitution only as one chapter export | Not used |
-| [BotswanaLII](https://www.botswanalii.org) | – | Not used |
-| [Parliament of Botswana](https://www.parliament.gov.bw) | Hansard, order papers and Bills; no Acts | Not used |
-
-Research guides that cover every country: [GlobaLex](https://www.nyulawglobal.org/globalex/) and the [Law Library of Congress Guide to Law Online](https://www.loc.gov/research-centers/law-library-of-congress/researcher-resources/guide-to-law-online/).
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [Botswana e-Laws](https://e-laws.botswanalaws.com) (Attorney General's Chambers; Blackhall Publishing) | Official consolidation | no, today's text only | Only the Constitution's page is open; its bulletin gives each amending law's commencement and the sections it amends |
+| [botswanalaws.com](https://botswanalaws.com), the same publisher's earlier site, through the [Internet Archive](https://web.archive.org/) | Official consolidation, archived | as captured: the Constitution on 2019-05-26, the Penal Code on 2024-12-04 and 2026-03-23 | The full text of each act's oldest version |
 
 ## Licence
 
-See [LICENSE](LICENSE). The publisher states: "Copyright © 2026. All right reserved. Government of Botswana." Whether Botswana's Copyright and Neighbouring Rights Act excludes legislative texts from copyright has not been verified, so this repository is private. Lexifina's arrangement, messages, tables and tools are CC0.
+See [`LICENSE`](LICENSE). The publisher's notice reads "Copyright (c) 2026. All right reserved. Government of Botswana."; it gives no licence to republish, and whether Botswana's Copyright and Neighbouring Rights Act excludes legislative texts from copyright has not been verified. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
-This repository is not legal advice. Botswana's laws are published in English, so there is no separate summary in Setswana.
+No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## More
+
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
