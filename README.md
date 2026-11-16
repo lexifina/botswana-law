@@ -60,6 +60,7 @@ The oldest version of each act is credited to the publisher, `Botswana e-Laws (A
 - **Today's text:** the Penal Code's amendment list on the publisher's page is the same on 4 December 2024 and 23 March 2026, and the e-Laws bulletin (searched 29 October 2026) lists no later amendment to it.
 - **Credits:** each section credited to a law carries an amendment note naming that law, matching the sections the bulletin says it amends (Act 1 of 2021: "Amends: s 68").
 - History is append-only: no merge commits, no commit dates that go backwards, and none after the build.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -81,6 +82,10 @@ The oldest version of each act is credited to the publisher, `Botswana e-Laws (A
 See [`LICENSE`](LICENSE). The publisher's notice reads "Copyright (c) 2026. All right reserved. Government of Botswana."; it gives no licence to republish, and whether Botswana's Copyright and Neighbouring Rights Act excludes legislative texts from copyright has not been verified. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
 
 ## More
 
