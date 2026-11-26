@@ -4,7 +4,7 @@
   "name": "Botswana",
   "level": "country",
   "repo": "https://github.com/lexifina/botswana-law",
-  "build": "built: Penal Code (1 version, 2024-12-04, today's text, on main); Constitution of Botswana (2 versions, 2019-05-26 to 2021-02-05, preview only: Act 29 of 2022's in-force date has no open source)",
+  "build": "built: Constitution (3 versions, 2019-05-26 to today's text) and 346 consolidated Acts from Botswana e-Laws (elaws.gov.bw), today's text; Penal Code 2 versions",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
   "sources": 2

@@ -1,22 +1,26 @@
-The legal texts come from Botswana e-Laws, the consolidated laws of Botswana published for the Attorney General's
-Chambers by Blackhall Publishing:
-
-  Botswana e-Laws, https://e-laws.botswanalaws.com (the Constitution page, retrieved 2026-10-28), and the same
-  publisher's earlier site https://botswanalaws.com, read from archived copies on the Internet Archive
-  (https://web.archive.org), captures of 2019-05-26, 2024-12-04 and 2026-03-23.
-
-The publisher's notice: "Copyright (c) 2026. All right reserved. Government of Botswana."
-
-No licence to republish is given, and whether Botswana's Copyright and Neighbouring Rights Act excludes legislative
-texts from copyright has not been verified. This repository is therefore private; whether and how it may be published
-is the owner's decision.
-
-Changes made by Lexifina: each version was converted to one Markdown file per section or schedule, one paragraph per
-line; spacing, quotes and dashes were normalised; amendment and editorial notes, Part and Chapter headings were left
-out; and the versions were arranged as git commits credited to the laws the publisher names for each change. The
-wording of the law was not changed. Neither the Government of Botswana nor Blackhall Publishing endorses this
-repository.
-
-Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
-dedicated to the public domain under CC0 1.0 Universal:
+Lexifina's own contributions to this repository (the arrangement of the history, the commit messages, the
+folder layout, the tables and the tools) are dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The legal texts are not Lexifina's. They come from:
+
+1. Botswana e-Laws, https://elaws.gov.bw, published by the Attorney General's Chambers of Botswana. Footer:
+   "Copyright (c) 2026. AGC, Botswana All rights reserved." Disclaimer (https://elaws.gov.bw/disclaimer): the
+   materials are "provided by the Government for information purposes only"; the electronic versions "are not
+   recognized as the official or authorized version"; authorised printed copies are available from the Department
+   of Printing and Publishing Services.
+
+2. botswanalaws.com, the earlier site of the same consolidation (published for the Attorney General's Chambers by
+   Blackhall Publishing), read only from archived copies on the Internet Archive (https://web.archive.org):
+   the Constitution captured 2019-05-26 and the Penal Code captured 2024-12-04. Notice: "Copyright (c) 2026.
+   All right reserved. Government of Botswana."
+
+The Copyright and Neighbouring Rights Act (Cap. 68:02) of Botswana, section 6(2)(b), provides that no protection
+extends under the Act to "any official text of a legislative, administrative or legal nature, as well as any
+official translation thereof" (text as published on Botswana e-Laws,
+https://elaws.gov.bw/principal-legislation/copyright-and-neighbouring-rights/).
+
+Changes made by Lexifina: each version was converted to one Markdown file per section or schedule, one paragraph
+per line; spacing, quotes and dashes were normalised; amendment and editorial notes, Part and Chapter headings were
+left out; and the versions were arranged as dated git commits. The wording of the law was not changed. Neither the
+Government of Botswana nor Blackhall Publishing endorses this repository.

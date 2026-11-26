@@ -1,3 +1,0 @@
-# SECOND SCHEDULE
-TULI BLOCK
-Commencing at the junction of the Shashe and Crocodile Rivers, the boundary runs along the Crocodile River to its junction with the Notwane River; thence along the Notwane River to a beacon on the left bank of the said river at Lokhalos; thence along the eastern boundary of the Bamangwato Tribal Territory, as defined in the Tribal Territories Act, to a beacon on the Tuli-Motloutse road marking the westerly limit of the 10 mile radius around Fort Tuli; thence south-east along the arc of a circle with a radius of 10 miles, the centre of which is Fort Tuli, until such arc touches the Shashe River, and thence along the Shashe River to its junction with the Crocodile River aforesaid.

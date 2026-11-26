@@ -1,6 +1,0 @@
-# SCHEDULE 4 CERTIFICATE OF PRESUMPTION OF DEATH
-(Section 280)
-By virtue of the powers vested in me under section 280 of the Botswana Defence Force Act, I ........................................................... (judge advocate general) having perused the findings and report of the Board of Inquiry dated ................................. 20.............. convened to investigate the circumstances under which ......................................................................... (force number, rank and name) disappeared on land or in air, or was lost at sea on ............................. 20......... and having satisfied myself in that respect and having regard to all the prevailing circumstances which in my opinion raise a beyond reasonable doubt presumption that the said ............................................................. (force number, rank and name) is dead, therefore;
-I ........................................................................................... (judge advocate general) HEREBY DECLARE that the said ...................... (force number, rank and name) of ........................... unit be presumed dead and the person shall be deemed to have died on .......... day of ........................... 20........
-Dated .................... 20.......
-.......................................... (Judge advocate general)

@@ -1,2 +1,0 @@
-# SCHEDULE B BOUNDARIES OF THE BAROLONG FARMS
-Bounded on the east by the Transvaal Province to a place called Maiphetlane, thence on the north by Mahura's Pan, thence to the top of the hill Ngwabati, otherwise known as Korwe, thence to a point about a mile north-west of the Mogwalale Pans, and from thence on the west by a line direct to the junction of the Paring Spruit and the Molopo River on the south by the Molopo River and the Ramathlabama Spruit.

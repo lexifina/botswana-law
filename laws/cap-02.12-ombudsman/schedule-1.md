@@ -1,7 +1,0 @@
-# SCHEDULE OATH/AFFIRMATION
-(s. 7)
-Ombudsman and Deputy Ombudsman
-I ................................................................................, do swear/solemnly, sincerely and truly declare and affirm that I will faithfully and diligently discharge my duties and perform my functions, and will well and truly serve the Republic of Botswana in the office of ................................................................................ that I will do justice in accordance with the Constitution of Botswana as by law established and in accordance with the laws and usage of Botswana without fear or favour, affection or ill-will and that I will preserve and observe confidentiality in all matters coming to my knowledge through working in the office of the Ombudsman, unless I am required to do so in terms of any written law, or for purposes of any judicial proceedings.
-So Help Me God
-Officers employed in the Office of the Ombudsman
-I ............................................................................. do swear/solemnly, sincerely and truly declare and affirm that I will faithfully and diligently discharge my duties and perform my functions, and well and truly serve the Republic of Botswana in the office of ........................................ and that I will preserve and observe confidentiality in all matters coming to my knowledge through working in the office of the Ombudsman, unless I am required to do so in terms of any written law, or for purposes of any judicial proceedings.
