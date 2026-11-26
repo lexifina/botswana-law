@@ -23,3 +23,7 @@ The runner (Lexifina's `scripts/botswana-law/runner/`):
    and checks the pushed head with `git ls-remote`.
 
 A page whose sections carry no marks the parser knows is held back and listed in the runner's state, not guessed.
+
+## Correction
+
+Commit 9776ffa (a README and licence update, 2026-11-26) was made from a stale index and deleted the Constitution and every consolidated Act by mistake. The commits after eb26cba re-add them, one commit per version with the same dates, authors and text as before (the tree for constitution/ and laws/ is identical to d869d2a). The Penal Code's 2024 version is filed once more by the rename commit 3d5e58c's predecessor.

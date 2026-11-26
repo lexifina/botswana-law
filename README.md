@@ -9,7 +9,7 @@ The law of Botswana as a git history: one file per section, one commit per versi
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Botswana's national law, which global-law reads at `botswana/national/acts/`.
 
-**What is in it now:** the Constitution of Botswana (3 versions, 2019 to today's text) and 346 consolidated Acts (315 with a chapter number in `laws/`, 31 newer Acts in `acts/`), 13,683 sections and schedules in all, as the Attorney General's Chambers publishes them on Botswana e-Laws; the Penal Code has 2 versions. See [`STRUCTURE.md`](STRUCTURE.md) for the layout and how each version is dated.
+**What is in it now:** the Constitution of Botswana (3 versions, 2019 to today's text), 353 Acts (315 consolidated Acts with a chapter number in `laws/`, the rest in `acts/` by year: newer consolidated Acts and 7 Acts as enacted, from the publisher's PDF text layer) and 988 instruments of subsidiary legislation in `subsidiary/`, 30,477 sections, regulations and schedules in all, as the Attorney General's Chambers publishes them on Botswana e-Laws; the Penal Code has 2 versions. See [`STRUCTURE.md`](STRUCTURE.md) for the layout and how each version is dated.
 
 Each act has its own folder, one file per section: `laws/cap-08.01-penal-code/s-202.md` is section 202 of the Penal Code, murder.
 
@@ -69,7 +69,7 @@ The oldest version of each act is credited to the publisher, or to the enacting 
 
 - **The day each amendment took effect.** Most acts are one consolidated version dated by the publisher's revision, not one commit per amending law.
 - **Earlier history.** Every change before an act's oldest version is folded into it; its commit message names them (for the Penal Code, Law 2 of 1964 to S.I. 93 of 2023).
-- **Other law.** 5 consolidated acts whose pages do not mark sections (among them the Public Health Act) are not built yet; subsidiary legislation, Acts as enacted, Acts not yet in force ("on notice"), case law and bills are not here yet.
+- **Other law.** 5 consolidated acts whose pages do not mark sections (among them the Public Health Act) are not built yet; Acts as enacted whose bulletin PDF is a scan (no OCR is run) or gives no commencement day, Acts not yet in force ("on notice"), case law and bills are not here yet.
 - **Editorial matter.** Amendment and editorial notes are read for credits only, and Part and Chapter headings are left out; each file starts with its section's number and heading.
 - **Changes within a line.** Each paragraph is one line, so blame credits a whole paragraph to the law that changed one word of it.
 
