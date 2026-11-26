@@ -1,0 +1,25 @@
+{
+  "corpus": "bw/national/acts",
+  "name": "Botswana law: the Constitution and the consolidated Acts of Botswana as the Attorney General's Chambers publishes them on Botswana e-Laws",
+  "label": "Botswana",
+  "language": "en",
+  "dates": {
+    "commit": "in-force",
+    "other_trailers": [
+      "Date-basis",
+      "Source",
+      "Kind"
+    ],
+    "time": "12:00 Africa/Gaborone (UTC+2)"
+  },
+  "in_force_trailer": "In-force",
+  "has_future_branch": false,
+  "author": "the enacting Act when the page gives its own commencement day and lists no later Act; else \"Botswana e-Laws (Attorney General's Chambers)\"",
+  "citation": {
+    "file": "((?:laws/cap-[0-9.]+-[^/]+)|(?:acts/[0-9]{4}/[^/]+)|constitution)/s-0*([0-9]+[a-z-]*)\\.md",
+    "cites": "(^|[^0-9])(section|s\\.?) ?{n}\\b"
+  },
+  "sources": [
+    "https://elaws.gov.bw"
+  ]
+}
